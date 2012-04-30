@@ -233,6 +233,12 @@ class Table extends AbstractAsset
         $this->_addColumn($column);
         return $column;
     }
+    public function addColumnEx(Column $col)
+    {
+        $this->_addColumn($col);
+        return $col;
+    }
+
 
     /**
      * Rename Column

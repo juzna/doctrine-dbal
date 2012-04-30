@@ -70,6 +70,14 @@ abstract class AbstractAsset
         $this->_name = $name;
     }
 
+    public function resetName($name)
+    {
+        $this->_setName($name);
+    }
+
+
+
+
     /**
      * Is this asset in the default namespace?
      *
